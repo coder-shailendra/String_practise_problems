@@ -1,0 +1,13 @@
+def converttobase7(num):
+    if num == 0:
+        return "0"
+    sign = "-" if num < 0 else ""
+    num = abs(num)
+    result = ""
+    while num > 0:
+        result = str(num%7) + result
+        num //=7
+    return sign + result
+print(converttobase7(100))
+print(converttobase7(-7))
+print(converttobase7(264))
