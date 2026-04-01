@@ -8,4 +8,4 @@ def sortSentence(s):
 s = "is2 sentence4 This1 a3"
 print(sortSentence(s))
 s = "Myself2 Me1 I4 and3"
-print(sortSentence(s))
+print(sortSentence(s))  

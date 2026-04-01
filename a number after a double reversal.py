@@ -3,4 +3,4 @@ def isSameAfterReversals(num):
     reversed2 = int(str(reversed1)[::-1])
     return reversed2 == num
 print(isSameAfterReversals(526))  
-print(isSameAfterReversals(1800)) 
+print(isSameAfterReversals(1800))
